@@ -97,6 +97,24 @@ console.log(let);
                         console.log(q);
                         q++;
                      }while(q < 18);
+
+
+
+                     let e = 90;
+                     do{
+                        console.log(e);
+                        e--;
+                     }while(e  >= 100);
+
+                     for(let u = 90; u <= 120; u=u+2){
+                        console.log(u);
+
+                        u++;
+                          
+                        /* agar me u++ nahi lagaunga to output me 1 se leke 90 tk aaega fir 90 se +2 krta rahega 120 tk 
+                        and jaise hi me u++ ise krleta hu or increment operator use kr leta hu  then pehle vo value lega jo hai 90 and then usme add 2 krte rahega 120 tk 
+                        this is the difference */
+                     }
                      
 
 
